@@ -1,0 +1,10 @@
+node_modules/
+.vscode
+.idea
+.svn
+bower_components/
+dist/
+*.log
+*.war
+release/
+tmp/

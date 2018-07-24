@@ -1,0 +1,16 @@
+{
+    "extends": ["tslint:latest"],
+    "rules": {
+      "quotemark": [true, "single", "jsx-double"],
+			"indent": ["error", 2],
+      "ordered-imports": [false],
+      "no-console": [false],
+      "object-literal-sort-keys": false,
+      "object-literal-key-quotes":  [true, "as-needed"],
+      "prefer-conditional-expression": false,
+      "max-classes-per-file": [false],
+      "member-ordering": [true, { "order": "instance-sandwich" }],
+      "no-this-assignment": false,
+      "no-shadowed-variable": false
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es6",
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "dom",
+      "webworker"
+    ]
+  },
+  "compileOnSave": false,
+  "noImplicitUseStrict": true,
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}
